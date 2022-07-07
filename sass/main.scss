@@ -1,20 +1,20 @@
-@import './base/utils/vars';
+@import './utils/vars';
 @import './base/reset';
-@import './base/utils/hidden';
+@import './utils/hidden';
 
 
-@import './base/components/container';
-@import './base/components/backdrop';
+@import './components/container';
+@import './components/backdrop';
 
 
-@import './base/layout/header';
-@import './base/layout/main_section';
-@import './base/layout/company';
-@import './base/layout/work-projects';
-@import './base/layout/masters';
-@import './base/layout/clients';
-@import './base/layout/footer';
-@import './base/layout/company-soc';
-@import './base/components/modal-footer-field';
-@import './base/layout/header-two';
-@import './base/layout/portfolio';
+@import './layout/header';
+@import './layout/main_section';
+@import './layout/company';
+@import './layout/work-projects';
+@import './layout/masters';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/company-soc';
+@import './layout/modal-footer-field';
+@import './layout/header-two';
+@import './layout/portfolio';
