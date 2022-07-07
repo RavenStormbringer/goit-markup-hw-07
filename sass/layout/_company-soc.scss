@@ -1,0 +1,57 @@
+.company-soc {
+    margin-right: auto;
+}
+
+.soc {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.company-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.company-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.company-soc-item :first-child {
+    margin-left: 0;
+}
+
+.company-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    color: var(--main-color);
+    transition: background-color var(--primary-transition-time) var(--primary-cubic-function);
+    outline: none;
+}
+
+.team .company-soc-link {
+    color: var(--svg-links-color)
+}
+
+.company-soc-icon {
+    fill: currentColor;
+}
+
+.company-soc-link:hover,
+.company-soc-link:focus {
+    background-color: var(--hover-color);
+    color: var(--main-color);
+}

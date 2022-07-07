@@ -1,0 +1,94 @@
+.masters {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: #F5F4FA;
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--pre-main-color);
+    margin-bottom: 50px;
+}
+
+.workers {
+    display: flex;
+    margin-left: -30px;
+}
+
+.about-workers {
+    flex-basis: calc(100% - 90px) / 3;
+    margin-left: 30px;
+    background-color: var(--main-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.16);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.about-workers-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--pre-main-color);
+}
+
+.names-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    padding-top: 10px;
+    margin-bottom: 16px;
+}
+
+.masters-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.masters-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.masters-soc-item :first-child {
+    margin-left: 0;
+}
+
+.masters-soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: var(--svg-links-color);
+    transition: background-color var(--primary-transition-time) var(--primary-cubic-function),
+        color var(--primary-transition-time) var(--primary-cubic-function);
+    outline: none;
+}
+
+.masters-soc-icon {
+    fill: currentColor;
+}
+
+.masters-soc-link:hover,
+.masters-soc-link:focus {
+    background-color: var(--hover-color);
+    color: var(--main-color);
+}

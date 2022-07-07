@@ -1,0 +1,41 @@
+.work-projects {
+    padding-bottom: 94px;
+}
+
+.pre-main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--pre-main-color);
+    margin-bottom: 50px;
+}
+
+.work-photo {
+    display: flex;
+}
+
+.about-work+.about-work {
+    margin-left: 30px;
+}
+
+.about-work {
+    position: relative;
+}
+
+.galery-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main-color);
+    background-color: var(--galery-overlay-color);
+}

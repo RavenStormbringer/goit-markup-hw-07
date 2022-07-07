@@ -1,0 +1,44 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+
+.company-clients {
+    width: 170px;
+    height: 92px;
+}
+
+.company-clients+.company-clients {
+    margin-left: 30px;
+}
+
+.company-clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid var(--svg-links-color);
+    border-bottom: 1px solid var(--svg-links-color);
+    border-left: 1px solid var(--svg-links-color);
+    border-right: 1px solid var(--svg-links-color);
+    border-radius: 4px;
+    color: var(--svg-links-color);
+    outline: none;
+}
+
+.company-clients-icon {
+    fill: currentColor;
+    transition: color var(--primary-transition-time) var(--primary-cubic-function);
+}
+
+.company-clients-link:hover,
+.company-clients-link:focus {
+    border-color: var(--hover-color);
+    color: var(--hover-color);
+}

@@ -1,0 +1,38 @@
+.company {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between
+}
+
+.title-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    max-width: 260px;
+}
+
+.company-ben {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--pre-main-color);
+    margin-bottom: 10px;
+}
