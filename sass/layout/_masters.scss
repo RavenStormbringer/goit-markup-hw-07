@@ -70,8 +70,7 @@
 
 
 .masters-soc-link {
-    display: flex;
-    align-items: center;
+    @extend %align-list;
     justify-content: center;
     width: 100%;
     height: 100%;
@@ -81,14 +80,15 @@
     transition: background-color var(--primary-transition-time) var(--primary-cubic-function),
         color var(--primary-transition-time) var(--primary-cubic-function);
     outline: none;
-}
-
-.masters-soc-icon {
-    fill: currentColor;
     &:hover,
     &:focus {
             background-color: var(--hover-color);
             color: var(--main-color);
         }
 }
+
+.masters-soc-icon {
+    fill: currentColor;
+}
+
 

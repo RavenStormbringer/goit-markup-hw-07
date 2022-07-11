@@ -4,8 +4,7 @@
     padding-right: 15px;
     margin: 0 auto;
     .header & {
-            display: flex;
-            align-items: center;
+            @extend %align-list;
         }
 }
 

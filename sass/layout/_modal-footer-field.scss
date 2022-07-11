@@ -31,8 +31,7 @@
 }
 
 .footer-button {
-    display: flex;
-    align-items: center;
+    @extend %align-list;
     justify-content: center;
     padding: 0;
     width: 200px;

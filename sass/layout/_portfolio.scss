@@ -79,9 +79,8 @@
 }
 
 .description-wrapper {
-    display: flex;
+    @extend %align-list;
     justify-content: center;
-    align-items: center;
     position: absolute;
     top: 0;
     width: 100%;

@@ -87,9 +87,8 @@
     color: var(--text-color);
     padding: 32px 0;
     margin-right: 50px;
-    display: flex;
+    @extend %align-list;
     justify-content: center;
-    align-items: center;
     transition: color var(--primary-transition-time) var(--primary-cubic-function);
     &:hover,
     &:focus {
@@ -105,9 +104,8 @@
     letter-spacing: 0.02em;
     color: var(--text-color);
     padding: 32px 0;
-    display: flex;
+    @extend %align-list;
     justify-content: center;
-    align-items: center;
     transition: color var(--primary-transition-time) var(--primary-cubic-function);
     &:hover,
     &:focus {

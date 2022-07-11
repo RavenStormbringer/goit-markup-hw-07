@@ -25,9 +25,8 @@
 }
 
 .galery-description {
-    display: flex;
+    @extend %align-list;
     justify-content: center;
-    align-items: center;
     height: 70px;
     width: 100%;
     position: absolute;
