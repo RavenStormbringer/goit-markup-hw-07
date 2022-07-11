@@ -60,17 +60,17 @@ button {
   margin: -1px;
 }
 
+.description-wrapper, .header-two .container, .footer-button, .company-soc-link, .company-clients-link, .masters-soc-link, .galery-description, .company-ben, .main-button, .header-phone, .header-mail, .header .container {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-.header .container {
-  display: flex;
-  align-items: center;
-}
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -351,9 +351,7 @@ button {
   color: var(--text-color);
   padding: 32px 0;
   margin-right: 50px;
-  display: flex;
   justify-content: center;
-  align-items: center;
   transition: color var(--primary-transition-time) var(--primary-cubic-function);
 }
 .header-mail:hover, .header-mail:focus {
@@ -368,9 +366,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color);
   padding: 32px 0;
-  display: flex;
   justify-content: center;
-  align-items: center;
   transition: color var(--primary-transition-time) var(--primary-cubic-function);
 }
 .header-phone:hover, .header-phone:focus {
@@ -413,8 +409,6 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
@@ -453,9 +447,7 @@ button {
 }
 
 .company-ben {
-  display: flex;
   justify-content: center;
-  align-items: center;
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
@@ -499,9 +491,7 @@ button {
 }
 
 .galery-description {
-  display: flex;
   justify-content: center;
-  align-items: center;
   height: 70px;
   width: 100%;
   position: absolute;
@@ -578,13 +568,11 @@ button {
   height: 44px;
   margin-left: 10px;
 }
-.masters-soc-item :first-child {
+.masters-soc-item:first-child {
   margin-left: 0;
 }
 
 .masters-soc-link {
-  display: flex;
-  align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
@@ -594,13 +582,13 @@ button {
   transition: background-color var(--primary-transition-time) var(--primary-cubic-function), color var(--primary-transition-time) var(--primary-cubic-function);
   outline: none;
 }
+.masters-soc-link:hover, .masters-soc-link:focus {
+  background-color: var(--hover-color);
+  color: var(--main-color);
+}
 
 .masters-soc-icon {
   fill: currentColor;
-}
-.masters-soc-icon:hover, .masters-soc-icon:focus {
-  background-color: var(--hover-color);
-  color: var(--main-color);
 }
 
 .clients {
@@ -623,9 +611,7 @@ button {
 }
 
 .company-clients-link {
-  display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   border-top: 1px solid var(--svg-links-color);
@@ -741,9 +727,7 @@ button {
 }
 
 .company-soc-link {
-  display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -751,9 +735,6 @@ button {
   color: var(--main-color);
   transition: background-color var(--primary-transition-time) var(--primary-cubic-function);
   outline: none;
-}
-.team .company-soc-link {
-  color: var(--svg-links-color);
 }
 .company-soc-link:hover, .company-soc-link:focus {
   background-color: var(--hover-color);
@@ -797,8 +778,6 @@ button {
 }
 
 .footer-button {
-  display: flex;
-  align-items: center;
   justify-content: center;
   padding: 0;
   width: 200px;
@@ -826,11 +805,6 @@ button {
 .header-two {
   border-bottom: 1px solid #ECECEC;
 }
-.header-two .container {
-  display: flex;
-  align-items: center;
-}
-
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -865,7 +839,7 @@ button {
   transition: background-color var(--primary-transition-time) var(--primary-cubic-function), color var(--primary-transition-time) var(--primary-cubic-function);
   outline: none;
 }
-.pre-main-button, .pre-main-button {
+.pre-main-button:hover, .pre-main-button:focus {
   color: var(--main-color);
   background-color: #188ce8;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -881,7 +855,7 @@ button {
   flex-basis: calc(33.3333333333% - 30px);
   margin: 15px;
 }
-.gallery-item, .gallery-item {
+.gallery-item:hover, .gallery-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -902,9 +876,7 @@ button {
 }
 
 .description-wrapper {
-  display: flex;
   justify-content: center;
-  align-items: center;
   position: absolute;
   top: 0;
   width: 100%;
