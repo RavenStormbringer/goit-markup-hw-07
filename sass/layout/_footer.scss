@@ -2,16 +2,16 @@
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    & .container {
+            display: flex;
+            align-items: baseline;
+        }
 }
 
 .footer-logoo {
     color: var(--main-color);
 }
 
-.footer .container {
-    display: flex;
-    align-items: baseline;
-}
 
 .adress-container {
     margin-right: 70px;
@@ -45,6 +45,10 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--primary-transition-time) var(--primary-cubic-function);
+    &:hover,
+    &:focus {
+            color: var(--hover-color);
+        }
 }
 
 .footer-phone {
@@ -56,4 +60,8 @@
     margin-top: 9px;
     margin-bottom: 60px;
     transition: color var(--primary-transition-time) var(--primary-cubic-function);
+    &:hover,
+    &:focus {
+            color: var(--hover-color);
+        }
 }

@@ -1,8 +1,8 @@
 .header-two {
     border-bottom: 1px solid #ECECEC;
+    & .container {
+            display: flex;
+            align-items: center;
+        }
 }
 
-.header-two .container {
-    display: flex;
-    align-items: center;
-}

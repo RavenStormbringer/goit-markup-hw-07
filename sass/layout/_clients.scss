@@ -30,6 +30,11 @@
     border-radius: 4px;
     color: var(--svg-links-color);
     outline: none;
+    &:hover,
+    &:focus {
+            border-color: var(--hover-color);
+            color: var(--hover-color);
+        }
 }
 
 .company-clients-icon {
@@ -37,8 +42,3 @@
     transition: color var(--primary-transition-time) var(--primary-cubic-function);
 }
 
-.company-clients-link:hover,
-.company-clients-link:focus {
-    border-color: var(--hover-color);
-    color: var(--hover-color);
-}

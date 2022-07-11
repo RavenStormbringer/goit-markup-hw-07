@@ -23,11 +23,12 @@
     width: 44px;
     height: 44px;
     margin-left: 10px;
+    & :first-child {
+            margin-left: 0;
+        }
 }
 
-.company-soc-item :first-child {
-    margin-left: 0;
-}
+
 
 .company-soc-link {
     display: flex;
@@ -40,18 +41,17 @@
     color: var(--main-color);
     transition: background-color var(--primary-transition-time) var(--primary-cubic-function);
     outline: none;
-}
-
-.team .company-soc-link {
-    color: var(--svg-links-color)
+    .team & {
+            color: var(--svg-links-color)
+        }
+    &:hover,
+    &:focus {
+    background-color: var(--hover-color);
+    color: var(--main-color);
+        }
 }
 
 .company-soc-icon {
     fill: currentColor;
 }
 
-.company-soc-link:hover,
-.company-soc-link:focus {
-    background-color: var(--hover-color);
-    color: var(--main-color);
-}
