@@ -8,24 +8,6 @@
     justify-content: space-between
 }
 
-.title-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
-    max-width: 260px;
-}
-
-.company-ben {
-    @extend %align-list;
-    justify-content: center;
-    width: 270px;
-    height: 120px;
-    background-color: #F5F4FA;
-    margin-bottom: 30px;
-}
-
 .title {
     font-weight: 700;
     font-size: 14px;
@@ -35,3 +17,22 @@
     color: var(--pre-main-color);
     margin-bottom: 10px;
 }
+
+.title-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    max-width: 260px;
+}
+
+.description__company-ben {
+    @extend %align-list;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
