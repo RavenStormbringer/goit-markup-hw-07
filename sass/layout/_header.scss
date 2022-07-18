@@ -38,9 +38,16 @@
     padding: 24px 0 25px 0;
 }
 
-
 .link {
     text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__item:not(last-child) {
+    margin-right: 50px;
 }
 
 .menu__link {
@@ -52,18 +59,11 @@
     letter-spacing: 0.02em;
     color: var(--text-color);
     transition: color var(--primary-transition-time) var(--primary-cubic-function);
+
     &:hover,
     &:focus {
-            color: var(--hover-color);
-        }
-}
-
-.menu {
-    display: flex;
-}
-
-.menu__item:not(last-child) {
-    margin-right: 50px;
+        color: var(--hover-color);
+    }
 }
 
 .menu__link {
