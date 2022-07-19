@@ -14,8 +14,6 @@
     pointer-events: none;
 }
 
-
-
 .modal {
     padding: 40px;
     position: absolute;
@@ -49,13 +47,12 @@
     justify-content: center;
     outline: none;
     transition: color var(--primary-transition-time) var(--primary-cubic-function);
-    &:hover,
-    &:focus {
-            color: #2196F3;
-        }
 }
 
-
+.modal-close-btn:focus,
+.modal-close-btn:hover {
+    color: #2196F3;
+}
 
 .modal-title {
     font-weight: 700;
@@ -114,7 +111,6 @@
         }
 }
 
-
 .input-icon {
     position: absolute;
     left: 15px;
@@ -126,7 +122,6 @@
         fill: var(--hover-color);
     }
 }
-
 
 .modal-text-area {
     width: 100%;
@@ -179,10 +174,6 @@
             fill: white;
         }
 }
-
-
-
-
 
 .modal-button {
     width: 200px;
