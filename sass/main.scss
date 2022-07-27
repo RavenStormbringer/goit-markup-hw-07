@@ -5,13 +5,8 @@
 @import './utils/mixins';
 
 
-
 @import './components/container';
-
-
-
-@import './components/backdrop';
-@import './components/backdrop-2';
+@import './components/products-modal';
 
 
 
@@ -19,7 +14,6 @@
 
 
 @import './layout/products';
-
 @import './layout/header';
 @import './layout/main-section';
 @import './layout/company';

@@ -20,7 +20,7 @@
 <body>
 
     <!--header-->
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
             <nav class="nav">
                 <a href="" class="logo link nav__logo">Web<span class="nav__logoo">Studio</span></a>
@@ -55,16 +55,20 @@
                 </li>
             </ul>
         </div>
-    </header>
+    </header> -->
 
     <!--main 1-->
     <main>
-        <section class="main-section">
+        <!-- <section class="main-section">
             <div class="container">
                 <h1 class="main-name">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button type="submit" class="main-button" data-modal-open>Заказать услугу</button>
+                <button type="submit" class="main-button">Заказать услугу</button>
             </div>
-        </section>
+        </section> -->
+
+
+
+
 
         <section class="products">
             <div class="container">
@@ -79,7 +83,7 @@
                                 eiusmod tempor incididunt ut labore et. dolore magna aliqua
                                 facilisis.
                             </p>
-                            <button class="sweetlist-button">
+                            <button class="sweetlist-button" data-modal-contacts-open>
                                 <svg class="sweetlist-button__icon" width="11" height="10">
                                     <use href="./images/sprite.svg#icon-arrow-right"></use>
                                 </svg>
@@ -127,9 +131,28 @@
             </div>
         </section>
 
+            <!--backdrop-->
+            <div class="products-backdrop" data-modal-contacts>
+                <div class="products-modal">
+                    <button type="button" class="products-modal__button_close" data-modal-header-close>
+                        <svg class="products-modal__close-icon"
+                            width="18" height="18">
+                            <use href="images/sprite.svg#icon-cross2"></use>
+                        </svg>
+                    </button>
+                    <p class="products-modal__descr">БЛАБЛАБЛА</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
 
         <!--2-->
-        <section class="company">
+        <!-- <section class="company">
             <div class="container">
                 <ul class="description">
                     <li class="description__facts">
@@ -179,10 +202,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
         <!--3-->
-        <section class="work-projects">
+        <!-- <section class="work-projects">
             <div class="container">
                 <h2 class="pre-main-title">Чем мы занимаемся</h2>
                 <ul class="work-photo">
@@ -206,10 +229,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
         <!--4-->
-        <section class="masters">
+        <!-- <section class="masters">
             <div class="container">
                 <h2 class="team">Наша команда</h2>
                 <ul class="workers-list">
@@ -363,10 +386,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
     
         <!--5-->
-        <section class="clients">
+        <!-- <section class="clients">
             <div class="container"></div>
             <h2 class="team">Постоянные клиенты</h2>
             <ul class="clients-list">
@@ -414,7 +437,7 @@
                 </li>
             </ul>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <!--footer-->
@@ -487,26 +510,6 @@
         </div>
     </footer>
 
-    <!--backdrop-->
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button type="button" class="modal-close-btn" data-modal-close>
-                <svg class="company-soc-icon" width="18" height="18">
-                    <use href="./img/icons.svg#icon-close-black-18dp-2-1-1"></use>
-                </svg>
-            </button>
-            <p class="modal-title">Ice Cream</p>
-            <p class="modal-title-descr">Ice Cream</p>
-            
-        </div>
-    </div>
-
-    <div class="backdrop-2">
-        <div class="modal-2"></div>
-    </div>
-
-
-<script src="./js/modal.js"></script>
-<script src="./js/modal-2.js"></script>
+<script src="./js/products.modal.js"></script>
 </body>
 </html>
