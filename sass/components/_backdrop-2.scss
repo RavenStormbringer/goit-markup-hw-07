@@ -12,10 +12,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1) rotate(0);
-    transition: transform var(--primary-transition-time) var(--primary-cubic-function);
-    width: 600px;
-    min-height: 600px;
-    background-color: #FFFFFF;
-    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    min-height: 581px;
+    background-color: black;
 }
+
